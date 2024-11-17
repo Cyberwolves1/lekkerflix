@@ -1,7 +1,10 @@
+import EpisodeInfo from "./components/EpisodeInfo"
+import HorizontalField from "./components/HorizontalField"
+
 function App() {
   return (
     <div>
-      <h1>Lekkerflix</h1>
+      <p>Lekkerflix</p>
     </div>
   )
 }
