@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lekkerflix</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link href="https://fonts.googleapis.com/css2?family=Road+Rage&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-black text-white">
+    <header class="flex items-center justify-between p-4 bg-black">
+      <div class="flex items-center space-x-2">
+        <img src="/assets/Frame.svg" alt="Lekkerflix Logo" class="h-6 w-6" />
+        <span class="text-xl" style="font-family: 'Road Rage', cursive;">lekkerflix</span>
+      </div>
+      
+      <div class="flex-grow mx-4">
+        <input 
+          type="text" 
+          placeholder="search..." 
+          class="w-full py-2 px-4 rounded-lg bg-gray-800 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-yellow-500"
+        />
+      </div>
+      
+      <div class="flex items-center space-x-4 text-white">
+        <a href="#" class="flex items-center space-x-1">
+          <span class="material-icons text-yellow-500">videogame_asset</span>
+          <span class="text-sm">Gaming</span>
+        </a>
+        <a href="#" class="flex items-center space-x-1">
+          <span class="material-icons text-yellow-500">bookmark</span>
+          <span class="text-sm">Watchlist</span>
+        </a>
+        <a href="#" class="text-sm">Movies</a>
+        <a href="#" class="text-sm">TV Shows</a>
+        <a href="#" class="material-icons text-yellow-500">person</a>
+      </div>
+    </header>
+
+    <footer>
+      <div class="flex items-center justify-evenly p-4 bg-blue-800 text-white space-x-8">
+        <div class="flex flex-col items-center space-y-2 text-center">
+          <div><b>Community</b></div>
+          <ul class="list-none space-y-1">
+            <li>Leaderboard</li>
+            <li>About Us</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+    
+        <div class="flex flex-col items-center space-y-2 text-center">
+          <div><b>Platform</b></div>
+          <ul class="list-none space-y-1">
+            <li>Leaderboard</li>
+            <li>About Us</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+    
+        <div class="flex flex-col items-center space-y-2 text-center">
+          <div><b>Legal</b></div>
+          <ul class="list-none space-y-1">
+            <li>Terms of use</li>
+            <li>Privacy Policy</li>
+            <li>DMCA Policy</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
