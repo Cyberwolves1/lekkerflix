@@ -6,7 +6,7 @@ function MoviesComponent({
                             image,
                             title,
                             rating,
-                            type, // 'movie' or 'series'
+                            type, 
                             rolesPlayed,
                             yearOfProduction,
                             numberOfEpisodes,
