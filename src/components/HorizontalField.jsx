@@ -15,7 +15,7 @@ function HorizontalField({ placeholder, ispassword, text }) {
     }
 
     return (
-        <div className="my-2">
+        <div className="my-2 w-[450px]">
             <p className="text-lg py-1">{text}</p>
             <div className="relative w-[100%]">
                 <input
