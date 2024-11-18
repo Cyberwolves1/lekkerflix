@@ -2,7 +2,7 @@ import { useRef, useEffect} from "react";
 import Card from "./Card";
 
 /*eslint react/prop-types:0 */
-function Cardlist(props) {
+function CardList(props) {
   const { items } = props;
   const scrollRef = useRef(null);
   useEffect(()=>{
@@ -37,4 +37,4 @@ function Cardlist(props) {
     </div>
   );
 }
-export default Cardlist;
+export default CardList;
